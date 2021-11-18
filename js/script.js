@@ -19,8 +19,12 @@ console.log(cognome_utente);
 let colore_preferito = prompt ("Qual'è il tuo colore preferito?");
 console.log(colore_preferito);
 
+// Richiesta numero preferito 
+let numero_preferito = parseInt(prompt("Qual'è il tuo numero preferito?"));
+console.log(numero_preferito);
+
 // Numero finale 
-const final_number = 21;
+let final_number = numero_preferito + 5;
 
 //SALUTO 
 let saluto = ("Ciao "+ `${nome_utente}` + " questa è la tua password insicura: ");
